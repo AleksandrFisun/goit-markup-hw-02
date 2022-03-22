@@ -3,7 +3,7 @@
   --font-raleway: 'Raleway', sans-serif;
 }
 body {
-  font-family: --font-roboto;
+  font-family: var(--font-roboto);
   color: #757575;
   text-decoration: none;
 }
@@ -97,6 +97,7 @@ select {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .footer-connection:hover {
   color: rgba(33, 150, 243, 1);
@@ -199,9 +200,8 @@ select {
 }
 /* Заголовок проекта */
 .projects-title {
-  font-weight: 700;
   font-size: 18px;
-  line-height: 4;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
